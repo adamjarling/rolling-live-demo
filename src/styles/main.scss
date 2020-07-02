@@ -1,0 +1,23 @@
+@import "./variables";
+@import "~bulma/bulma.sass";
+
+h1,
+h2,
+h3,
+h4 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+nav.navbar a {
+  color: white;
+}
+
+.button {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.content a {
+  border-bottom: dashed 1px;
+}
